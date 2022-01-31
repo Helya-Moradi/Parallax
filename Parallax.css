@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.title{
+    width: 516px;
+    height: 60px;
+    background-color: rgb(218, 171, 127);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 21px;
+    letter-spacing: 9px;
+    position: absolute;
+    top: 235px;
+    left: 356px;
+    font-size: 30px;
+}
+.img1{
+    height: 100vh;
+    background-image: linear-gradient(rgba(105, 105, 105, 0.452),rgba(226, 223, 218, 0.397)),url("image/1.jpg");
+}
+.img2{
+    height: 400px;
+    background-image: linear-gradient(rgba(105, 105, 105, 0.356),rgba(226, 223, 218, 0.322)),url("image/https___www.lifeofpix.com_wp-content_uploads_2018_01_fullsizeoutput-1c09.jpeg");
+}
+.img3{
+    height: 400px;
+    background-image: linear-gradient(rgba(105, 105, 105, 0.411),rgba(226, 223, 218, 0.308)),url("image/3.jpg");
+}
+.parallax{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.paragraph1{
+    padding: 18px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    background-color:rgb(65, 65, 65);
+    height: 225px;
+}
+
+.paragraph{
+    height: 225px;
+    vertical-align: middle;
+    padding: 18px;
+    text-align: center;
+    color: white;
+    background-color:rgb(65, 65, 65);
+}
